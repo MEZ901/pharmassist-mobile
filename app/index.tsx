@@ -23,7 +23,7 @@ export default function Welcome() {
           Find the nearest pharmacy or one on guard duty.
         </Text>
         <Text style={styles.text}>Stay covered anytime, anywhere</Text>
-        <Link href="/login" asChild>
+        <Link href="/signIn" asChild>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Login</Text>
           </TouchableOpacity>
