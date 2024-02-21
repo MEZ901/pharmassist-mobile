@@ -39,6 +39,17 @@ export const WelcomeStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  homeButton: {
+    position: "absolute",
+    backgroundColor: "#38a69d",
+    borderRadius: 50,
+    paddingVertical: 8,
+    width: "60%",
+    alignSelf: "center",
+    bottom: "35%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   buttonText: {
     fontSize: 18,
     color: "#FFF",

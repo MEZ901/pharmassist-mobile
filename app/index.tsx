@@ -28,6 +28,11 @@ export default function Welcome() {
             <Text style={styles.buttonText}>Login</Text>
           </TouchableOpacity>
         </Link>
+        <Link href="/home" asChild>
+          <TouchableOpacity style={styles.homeButton}>
+            <Text style={styles.buttonText}>Home</Text>
+          </TouchableOpacity>
+        </Link>
       </Animatable.View>
     </View>
   );
